@@ -151,6 +151,22 @@ export const grouppedNav = {
                 ]
             }
         ]
+    },
+    analytics: {
+        title: 'Migration Analytics',
+        routes: [
+            {
+                group: 'analytics',
+                id: 'dashboard',
+                title: 'Dashboard',
+                default: true
+            },
+            {
+                group: 'analytics',
+                id: 'uploads',
+                title: 'Uploads'
+            }
+        ]
     }
 };
 
