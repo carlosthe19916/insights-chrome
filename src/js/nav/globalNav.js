@@ -157,14 +157,9 @@ export const grouppedNav = {
         routes: [
             {
                 group: 'analytics',
-                id: 'dashboard',
-                title: 'Dashboard',
+                id: 'reports',
+                title: 'Reports',
                 default: true
-            },
-            {
-                group: 'analytics',
-                id: 'uploads',
-                title: 'Uploads'
             }
         ]
     }
